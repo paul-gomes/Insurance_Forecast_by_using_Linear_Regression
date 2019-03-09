@@ -33,6 +33,8 @@ Dataset has 7 feature - 'age', 'sex', 'bmi', 'children', 'smoker', 'region', 'ch
 | isSmoker | -0.025019 | 0.003750 | 0.007673 | 0.787251 | 1.000000 | 0.002181 |
 | region_num | -0.002127 | -0.157566 | -0.016569 | 0.006208 | 0.002181 | 1.000000 |
 
+![Correlation](/images/correlation.PNG)
+
 It looks like all of the featuers are important for forcasting the insurance costs. However, some of the important features - 'smoker', 'region' is in object. As a result, I had to convert them to numerical values before I can feed them into the model. There are no missing values and all the features seem important for the prediction. So, I would not be needing any cleaning here. After analyzing the dataset, It looks like there is strong correlation between 'isSmoke' and 'charges', which is .787, a strong positive correlation. There is also correlation between 'age' and the 'charges', which is .299, a weak positive correlation. 
 
 ### Linear Regression
