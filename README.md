@@ -63,6 +63,12 @@ It seems like adding 'bmi', 'region_num' improves the model, and brings the scor
 #### Result on test datasets
 1. The score on test_set is  0.772722801913057
 
-The score on test dataset is higher. One of interesting findings here is that, if you smoke, your insurace costs tend to be higher. Moreover, smoking damages our body's natural defenses against the bacteria and viruses that cause pneumonia, which is my next project, classifying pneumonia from chest X-Ray images.
+The score on test dataset is higher. One of interesting findings here is that, if you smoke, your insurace costs tend to be higher.
+
+#### Limitations & Imporvements
+Dataset is pretty limited. It only has 1338 records and It does not include very many important features that could be used to do the prediction. Collecting more data with various helpful features would be a way to imporve the models to get better prediction.
+
+#### Project Conclusion
+One of the key findings is that if an insured person smokes his insurance cost tends to be higher. Also, as the person grows older their insurance cost gets higher. Moreover, higher bmi gives higher insurance cost, however, cost is not highly influced by this feature. In my analysis, the main two features that affected the insurance cost greatly is age and smoke. Since one of the limitations that I had is few imporatant and helpful features in my dataset, it is necessary to have more helpful features like current health conditions, past histroy to have a better prediction.
 
 
